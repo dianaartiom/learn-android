@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Toast.makeText(getBaseContext(), timePicker.getHour() + " : " + timePicker.getMinute(),
+                Toast.makeText(getBaseContext(), timePicker.getCurrentHour() + " : " + timePicker.getCurrentMinute(),
                         Toast.LENGTH_SHORT ).show();
             }
         });
