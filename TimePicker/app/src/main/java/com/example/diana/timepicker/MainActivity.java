@@ -31,12 +31,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                int hour = 0;
-                int min = 0;
-                hour = timePicker.getHour();
-                min = timePicker.getMinute();
-
-                Toast.makeText(getBaseContext(), hour + " : " + min,
+                Toast.makeText(getBaseContext(), timePicker.getHour() + " : " + timePicker.getMinute(),
                         Toast.LENGTH_SHORT ).show();
             }
         });
